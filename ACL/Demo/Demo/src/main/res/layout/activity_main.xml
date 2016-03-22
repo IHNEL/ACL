@@ -24,4 +24,10 @@
         android:layout_height="50dp"
         android:text="@string/app_name"
         acc:accFontName="@string/font.heavy"/>
+
+    <com.acc.acl.widget.AccEditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        acc:accFontName="@string/font.heavy"
+        />
 </LinearLayout>
