@@ -30,4 +30,16 @@
         android:layout_height="50dp"
         acc:accFontName="@string/font.heavy"
         />
+
+    <com.acc.acl.widget.AccCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test checkbox"
+        acc:accFontName="@string/font.heavy"/>
+
+    <com.acc.acl.widget.AccRadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Radiobutton"
+        acc:accFontName="@string/font.heavy"/>
 </LinearLayout>
