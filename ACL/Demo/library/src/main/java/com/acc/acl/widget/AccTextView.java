@@ -22,22 +22,22 @@ public class AccTextView extends TextView {
 
     public AccTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        loadCustomFont(attrs);
+        loadCustomFont(context,attrs);
     }
 
     public AccTextView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        loadCustomFont(attrs);
+        loadCustomFont(context,attrs);
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public AccTextView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
-        loadCustomFont(attrs);
+        loadCustomFont(context,attrs);
     }
 
-    private void loadCustomFont(AttributeSet attrs) {
-        Typeface typeface = FontLoader.extractTypeface(getContext(), attrs);
+    private void loadCustomFont(Context context,AttributeSet attrs) {
+        Typeface typeface = FontLoader.extractTypeface(context, attrs);
         setTypeface(typeface);
     }
 }
