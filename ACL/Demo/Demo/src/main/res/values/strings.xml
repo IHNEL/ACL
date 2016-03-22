@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="font.heavy">avenirltstd_heavy.ttf</string>
+    <string name="font.heavy.italic">avenirltstd_heavy_oblique.ttf</string>
+</resources>

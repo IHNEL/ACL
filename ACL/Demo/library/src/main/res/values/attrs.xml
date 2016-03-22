@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AccFont">
+        <attr name="accFontName" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="AccButton">
+        <attr name="accEnableTouchEffect" format="boolean"/>
+        <attr name="accTouchEffectAlpha" format="float"/>
+        <attr name="accTouchEffectBackground" format="color"/>
+    </declare-styleable>
+</resources>
