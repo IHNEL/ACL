@@ -11,9 +11,11 @@ import com.acc.acl.helper.FontLoader;
 
 /**
  * Created by binhnguyen on 3/21/16.
- * <p/>
+ * <p>
  * Extend built-in TextView with below features:
+ * <br>
  * - Developer is able to set custom font within custom attribute.
+ * </p>
  */
 public class AccTextView extends TextView {
     public AccTextView(Context context) {

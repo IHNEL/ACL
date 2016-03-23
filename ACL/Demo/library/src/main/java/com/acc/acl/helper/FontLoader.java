@@ -9,7 +9,7 @@ import com.acc.acl.R;
 
 /**
  * Created by binhnguyen on 3/21/16.
- * <p/>
+ * <p>
  * This class provides convenient methods to setup {@link Typeface} based on custom attributes
  */
 public class FontLoader {
@@ -19,7 +19,7 @@ public class FontLoader {
      *
      * @param context The current application context
      * @param attrs   The attribute set loaded from xml file
-     * @return {@link Typeface} instance if given attributes are valid. {@link null} for otherwise.
+     * @return {@link Typeface} instance if given attributes are valid. null for otherwise.
      */
     public static Typeface extractTypeface(final Context context, final AttributeSet attrs) {
         final TypedArray args = context.obtainStyledAttributes(attrs, R.styleable.AccFont);

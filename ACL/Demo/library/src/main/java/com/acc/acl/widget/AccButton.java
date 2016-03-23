@@ -21,16 +21,16 @@ import com.acc.acl.helper.FontLoader;
 
 /**
  * Created by binhnguyen on 3/22/16.
- * <p>
- * Extend built-in {@link Button} with below features:<p>
- * - Developers are able to set custom font within custom attribute.<p>
- *  + set accFontName with *.ttf file name<p>
- * - Auto add touch effect to button,<p>
- *  + to disable this effect by set touchEffect = false<p>
- *  + to define custom alpha value, set accTouchEffectAlpha<p>
- *  + to define custom touched background color, set accTouchEffectBackground<p>
- *<p>
- *  * Note: the touching effect will be disabled automatically if developers using state-list background<p>
+ * <br>
+ * Extend built-in {@link Button} with below features:<br>
+ * - Developers are able to set custom font within custom attribute.<br>
+ *  + set accFontName with *.ttf file name<br>
+ * - Auto add touch effect to button,<br>
+ *  + to disable this effect by set touchEffect = false<br>
+ *  + to define custom alpha value, set accTouchEffectAlpha<br>
+ *  + to define custom touched background color, set accTouchEffectBackground<br>
+ *<br>
+ *  * Note: the touching effect will be disabled automatically if developers using state-list background<br>
  */
 public class AccButton extends Button {
     public AccButton(Context context) {

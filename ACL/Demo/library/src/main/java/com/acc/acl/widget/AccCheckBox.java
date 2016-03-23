@@ -11,9 +11,11 @@ import com.acc.acl.helper.FontLoader;
 
 /**
  * Created by binhnguyen on 3/22/16.
- * <p/>
+ * <p>
  * Extend built-in {@link CheckBox} with below features:
+ * <br>
  * - Developer is able to set custom font within custom attribute.
+ * </p>
  */
 public class AccCheckBox extends CheckBox {
     public AccCheckBox(Context context) {
